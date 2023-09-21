@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+body{
+    font-family: 'Mooli', sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+.calculator{
+    width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 9px rgb(0 0 0 / 20%);
+}
+input{
+    padding: 20px;
+    font-size: 1rem;
+}
+.wrapper{
+    margin-top: 20px;
+    display: inline-block;
+}
+button{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 300ms;
+}
+button:hover{
+    transform: scale(1.1);
+}
+#plus{
+    background-color: green;
+}
+#minus{
+    background-color: red;
+}
+#multiply{
+    background-color: rgb(19, 209, 19);
+}
+#divide{
+    background-color: rgb(215, 73, 73);
+}
+#result{
+    font-size: 3rem;
+    margin: 20px 0 0;
+}
